@@ -13,15 +13,21 @@ For detailed information, refer to the [subject](https://github.com/appinha/42cu
 
 *Functions in get_next_line.c*
 
-`ft_free_null` - free and null a pointer.
-`ft_cpy_exc_buff` - copy read excess (string after \n) to static variable (buffer).
-`ft_buff2line` - copy read line from buffer.
+`ft_check_rem` - copy read excess (string after \n) to static variable (buffer).
+
+`ft_back` - copy read line from buffer.
+
 `get_next_line` - main function.
 
 *Functions in get_next_line_utils.c*
 
-`ft_strlen` - find length of string.
 `ft_strdup` - save a copy of a string (with malloc).
+
+`ft_strjoin` - concatenate two strings into a new string (with malloc).
+
+`ft_strcpy` - copy strings.
+
+`ft_strchr` - locate character in string (first occurrence).
 
 # `🛠️ Usage`
 
@@ -29,7 +35,6 @@ For detailed information, refer to the [subject](https://github.com/appinha/42cu
 The function is written in C language and thus needs the gcc compiler and some standard C libraries to run.
 
 ### **Instructions**
-1. Using it in your code
 
 To use the function in your code, simply include its header:
 
@@ -48,11 +53,6 @@ If you're on Linux, you may as well need the following flags:
 ```
 ### **📋 Testing**
   + Configuring
-     + First, open the Makefile inside /testing/ and configure the path to the get_next_line folder:
-```
-GNL_FOLDER	= ../get_next_line
-``` 
-
    + Running:
 
 For basic testing, run:
