@@ -3,7 +3,7 @@
 *__Development repo for 42cursus' get_next_line project__*
 For further information about 42cursus and its projects, please refer to (42cursus)[https://github.com/appinha/42cursus] repo.
 
-#`🗣️ About`
+# `🗣️ About`
 > _The aim of this project is to make you code a function that returns a line ending with a newline, read from a file descriptor._
 
 For detailed information, refer to the (subject)[https://github.com/appinha/42cursus/tree/master/_PDFs] of this project.
@@ -45,14 +45,14 @@ If you're on Linux, you may as well need the following flags:
 ```
 -D ARG_MAX="sysconf(_SC_ARG_MAX)" -D OPEN_MAX=1024
 ```
-📋 Testing
+### **📋 Testing**
   + Configuring
      + First, open the Makefile inside /testing/ and configure the path to the get_next_line folder:
-
 ```
 GNL_FOLDER	= ../get_next_line
 ``` 
-    + Running:
+
+   + Running:
 
 For basic testing, run:
 
