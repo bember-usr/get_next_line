@@ -51,12 +51,7 @@ If you're on Linux, you may as well need the following flags:
 ```
 -D ARG_MAX="sysconf(_SC_ARG_MAX)" -D OPEN_MAX=1024
 ```
-### **📋 Testing**
-  + Configuring
-   + Running:
-
-For basic testing, run:
-
+### **📋 Running**
 ```
 make
 ```
